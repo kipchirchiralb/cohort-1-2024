@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <meta
+      name="keywords"
+      content="laptops in eldoret, buy hp laptops, dell, "
+    />
+    <meta
+      name="description"
+      content="we sell refurbished and new laptops in eldoret. we deliver country wide."
+    />
+  </head>
+  <body>
+    <label> Female </label>
+    <h1>Sign Up here</h1>
+    <!-- type attribute is used for input validation -- making sure the user provides correct data -->
+    <!-- name attribute is used to identify the data on the server -->
+    <!-- id attribute uniquely identifies elements -->
+    <form action="">
+      <div>
+        <label for="fullname">FullName</label>
+        <input type="text" name="fullname" id="fullname" />
+      </div>
+      <div>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail" />
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other">Other</label>
+      </div>
+      <!-- CHECKBOX - social platforms-->
+
+      <div>
+        <label for="socials"
+          >Which social media platform are you registered in:</label
+        >
+
+        <input type="checkbox" name="socials" id="whatsapp" value="whatsapp" />
+        <label for="whatsapp">Whatsapp</label>
+
+        <input type="checkbox" name="socials" id="x" value="x" />
+        <label for="x">X</label>
+      </div>
+
+      <div>
+        <label for="course">Which Course are you signing up for</label>
+        <select name="course" id="course">
+          <option value="web">Web Development</option>
+          <option value="android">Android Development</option>
+          <option value="graphics">Graphics Design</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" />
+      </div>
+
+      <div>
+        <label for="story">What is your story</label>
+        <textarea name="story" id="story" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="profile">Passport Photo</label>
+        <input type="file" name="profile" id="profile" />
+      </div>
+
+      <input type="submit" value="Sign Up" />
+      <button>Click here</button>
+
+      <!-- Reacrete the html for this form bit.ly/eldohub-2024-intake -->
+      <!-- add a field to allow someone provide their date of birth-- (input of type date) -->
+    </form>
+  </body>
+</html>
