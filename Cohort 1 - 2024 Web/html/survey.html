@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Please fill this form carefully</h1>
+
+    <form action="" method="post">
+      <div>
+        <label for="fullname">Full Name: </label>
+        <input type="text" name="fullname" id="fullname" />
+      </div>
+
+      <div>
+        <label for="product">Choose the product you used: </label>
+        <select name="product" id="product">
+          <option value="engineoil">Engine Oil</option>
+          <option value="petrolone">Petrol(with Lead)</option>
+          <option value="petroltwo">Petrol(without Lead)</option>
+          <option value="diesel">Diesel</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="liked"
+          >On a scale of 1-10, how did you like our product</label
+        >
+        <input type="range" name="liked" id="liked" min="1" max="10" />
+      </div>
+
+      <div>
+        <label for="when">When did you use our product</label>
+        <input type="date" name="when" id="when" />
+      </div>
+      <div>
+        <button type="button">submit survey</button>
+        <button type="submit">submit survey</button>
+        <input type="submit" value="submit form" />
+      </div>
+    </form>
+    <!-- assignment --Write the html for this form https://airtable.com/appN9OUmM0CEUVGsZ/shreID72XtYZCjMbJ  -->
+    <!-- add acheckbox for the question(How did you hear about us) -->
+  </body>
+</html>

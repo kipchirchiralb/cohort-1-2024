@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h1 id="headingone" class="headings">Login here</h1>
+    <!-- id attribute --Provides a unique identifier for elements for the purpose of styling & interactivity  -->
+    <!-- in forms the id attribute associates labels to input elements -->
+    <!-- the for attribute is used to explicitly associate a label with a  an input element   -->
+    <!--the  name attribute identifies the form input when the form is submitted.It is essential for server-side processing of form data -->
+    <!-- the type attribute defines the type of the form control(input), indicating what kind of input is expected from the user(input validation). Common values include text, password, checkbox, radio, submit -->
+    <!-- required attribute indicates that the input element can not be submitted blank -->
+    <form action="http://albert.lakaty.co.ke/login" method="post">
+      <label for="useremail">Email</label> <br />
+      <input type="email" name="useremail" id="useremail" required />
+      <br />
+
+      <label for="pass">Password</label> <br />
+      <input type="password" name="pass" id="pass" /> <br />
+
+      <label for="role">Role</label> <br />
+
+      <input type="radio" name="role" id="admin" value="admin" />
+      <label for="admin">Admin</label> <br />
+
+      <input type="radio" name="role" id="instructor" value="instructor" />
+      <label for="instructor"> Instructor</label> <br />
+
+      <input type="radio" name="role" id="student" value="student" />
+      <label for="student">Student</label> <br />
+
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
