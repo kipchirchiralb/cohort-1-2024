@@ -1,0 +1,34 @@
+h2 {
+  text-decoration: overline;
+  text-transform: uppercase;
+  border: 5px green solid;
+}
+/* wild card selector */
+* {
+  border: 5px green solid;
+}
+
+body {
+  background-color: beige;
+}
+.second {
+  background-color: blueviolet;
+}
+#unique {
+  background-color: red;
+}
+body {
+  /* font-size: 60px; */
+}
+* {
+  border: 5px red dotted;
+}
+/* 
+
+Selector -- target specific elements using their tag names or classes or IDs
+
+declaration block {} -- groups a list of declarations that will apply to the selected electeed
+
+Each declaration is made up of a property and a value
+
+*/
