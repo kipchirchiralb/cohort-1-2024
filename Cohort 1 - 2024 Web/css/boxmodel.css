@@ -22,9 +22,14 @@ body {
   background-color: bisque;
 }
 /*  Discus the box-sizing css property  */
+/* short hands in css */
 
 /* block elements -- cover the whole availble width e.g. h1-h6 , p, div, form, iarticle, header, footer.... */
-
+h2 {
+  background-color: aquamarine;
+  display: inline-block;
+  margin-top: 50px;
+}
 /* inline elements -- only cover as much width as its content e.g. a, span, input,label,  video,..... */
 
 /* inline-block -- borrows properties from both inline and block elements e.g. img*/
@@ -49,3 +54,4 @@ p {
   color: white;
   font-size: 20px;
 }
+/* position property in css --- static, relative, absolute, fixed */
