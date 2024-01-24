@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Property</title>
+    <link rel="stylesheet" href="position.css" />
+  </head>
+  <body>
+    <h1>The position property in CSS</h1>
+    <button id="chat">Chat</button>
+    <p>
+      The position property is used to control the positioning of an element
+      within its containing element. The position property can take several
+      values, each of which determines how the element is positioned on the web
+      page. These values include static, relative, absolute,fixed, sticky
+    </p>
+    <p>
+      By default every element in our page is position statically(position:
+      static)
+    </p>
+    <button id="stickybtn">Sticky</button>
+    <ul>
+      <li>
+        Relative: allows us to reposition an element in relation to its
+        static/original position
+      </li>
+      <li>
+        Absolute: allows us to reposition an element in relation to the first
+        parent/ancestor that is not statically positioned(relative,fixed,sticky
+        -- a common usecase is making a parent relatively positioned)
+      </li>
+      <li>
+        Fixed : allows us to reposition an element in relatin to the
+        viewport/screen
+      </li>
+      <li>
+        sticky: The element will remain static but stick to an indicated
+        position in relation to the viewport
+      </li>
+    </ul>
+
+    <div id="card">
+      <h2>VISA</h2>
+      <p id="expiry">12/12/2030</p>
+      <p id="name">Albert Kipchirchir</p>
+      <img
+        id="mpesalogo"
+        src="safaricom-removebg-preview.png"
+        alt="mpsesa logo"
+      />
+    </div>
+    <p id="dummy"></p>
+  </body>
+</html>
+
+eldohub_faiba : eldohub@2023

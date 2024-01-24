@@ -1,0 +1,55 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  position: relative;
+  /* top,bottom,left and right */
+  right: 10px;
+  top: 30px;
+}
+
+#card {
+  background-color: green;
+  border-radius: 13px;
+  margin: 40px;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  color: white;
+}
+
+#expiry {
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+}
+h2 {
+  position: absolute;
+  top: 15px;
+  right: 34px;
+}
+#name {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+}
+
+#chat {
+  position: fixed;
+  left: 50px;
+  top: 300px;
+}
+#stickybtn {
+  position: sticky;
+  top: 70px;
+}
+#dummy {
+  height: 3000px;
+}
+#mpesalogo {
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
