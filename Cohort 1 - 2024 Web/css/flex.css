@@ -5,29 +5,40 @@ body {
 #main-box {
   height: 300px;
   border: 2px solid red;
+
   display: flex;
-  justify-content: end;
-  align-items: center;
+
+  justify-content: center;
+  align-items: stretch;
 }
 /* Combining Selectors in CSS - - child selector,sibling selector,adjacent sibling selector,   */
 
 #main-box > * {
-  border: 1px solid green;
+  border: 6px solid green;
   margin: 3px;
-  flex: 1; /*flex basis, flex grow , flex shrink*/
+  /* flex: 1; flex basis, flex grow , flex shrink */
+}
+#box4 {
+  flex-basis: 200px;
+  flex-grow: 7;
 }
 #box2 {
-  flex: 2;
+  flex-basis: 200px;
+  flex-grow: 2;
+}
+
+#box5 {
+  /* flex: 2; */
 }
 
 header {
   background-color: white;
   display: flex;
   justify-content: space-between; /*main axis*/
-  align-items: center;
-  flex-direction: row;
+  align-items: center; /*cross axis*/
+  flex-direction: row; /*row-main-horizontal |||||  column-main-vertical*/
 }
 
 #action-elements * {
-  display: block;
+  /* display: block; */
 }
