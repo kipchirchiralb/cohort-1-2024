@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions and animations</title>
+    <style>
+      body {
+        transition: background-color 3s ease;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <h1>Transitions and animations are used to enhace user experience</h1>
+    <button id="toggle-color">toggle Color</button>
+
+    <script>
+      let body = document.getElementById("body");
+      document.getElementById("toggle-color").addEventListener("click", () => {
+        if (body.style.backgroundColor === "black") {
+          body.style.backgroundColor = "white";
+        } else {
+          body.style.backgroundColor = "black";
+        }
+      });
+    </script>
+  </body>
+</html>

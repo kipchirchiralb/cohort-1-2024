@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    \
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Flexbox</h1>
+      <form action="">
+        <input type="text" name="search" id="search" />
+        <input type="submit" value="Search" />
+      </form>
+      <div id="action-elements">
+        <button>menu</button>
+        <button>account</button>
+        <a href="">help</a>
+      </div>
+    </header>
+    <p>
+      Flexbox is a layout model in CSS that allows you to design complex layouts
+      more efficiently and with less code than traditional models. Its is useful
+      in building responsive applications.
+    </p>
+    <p>
+      To use flexbox, you make an element a flex container, which then allows
+      you to lay out its children(not descendants) in rows and/or columns
+    </p>
+    <p>In most cases a div(division) element is used as a container</p>
+
+    <div id="main-box">
+      <p>box 1</p>
+      <span>box 4 - child-inline</span>
+      <span>box 4 - child-inline</span>
+      <p id="box2">box 2</p>
+      <p>
+        <a href="#">box 3</a>
+        <span>box 4 - descendant</span>
+      </p>
+      <p>box 5</p>
+    </div>
+  </body>
+</html>

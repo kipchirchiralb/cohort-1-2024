@@ -28,7 +28,9 @@
       <li>
         Absolute: allows us to reposition an element in relation to the first
         parent/ancestor that is not statically positioned(relative,fixed,sticky
-        -- a common usecase is making a parent relatively positioned)
+        -- a common usecase is making a parent relatively positioned), if no
+        ancestor is iss either relative,fixed, or sticky, the element will be
+        repositioned in relation to the viewport/screen
       </li>
       <li>
         Fixed : allows us to reposition an element in relatin to the
@@ -50,6 +52,7 @@
         alt="mpsesa logo"
       />
     </div>
+
     <p id="dummy"></p>
   </body>
 </html>
